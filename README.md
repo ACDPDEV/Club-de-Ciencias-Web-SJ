@@ -1,1 +1,1 @@
-# Club de Ciencia SJ WEB
+# Club de Ciencias SJ WEB
