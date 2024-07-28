@@ -4,14 +4,16 @@ import reflex as rx
 def navbar() -> rx.Component:
     return rx.hstack(
         rx.text(
-            "SJ - Club de Ciencias - Abundio Sagastegui Alva",
+            "Abundio Sagastegui Alva",
             height="20px"
         ),
         position="sticky",
+        top="0",
         bg="#0f7",
         box_sizing="border-box",
-        width="100vw",
+        width="100%",
         height="10vh",
-        padding="10px",
+        min_height="60px",
+        # padding="10px",
         z_index="100"
     )
