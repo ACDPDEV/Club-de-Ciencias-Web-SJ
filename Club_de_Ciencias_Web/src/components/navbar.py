@@ -13,7 +13,7 @@ def navbar() -> rx.Component:
                 font_family="Segoe UI",
                 font_style="normal",
                 font_wight="700",
-                font_size="23px",
+                font_size="16px",
                 line_height="26px",
                 
                 color="#EEE",
@@ -22,17 +22,44 @@ def navbar() -> rx.Component:
             display="flex",
             flex_direction="row",
             align_items="center",
-            gap="30px",
+            gap="15px",
             
             height="40px",
+        ),
+        rx.hstack(
+            rx.text(
+                "Inicio",
+                
+                color="#8D9C93",
+            ),
+            rx.text(
+                "Proyectos",
+                
+                color="#8D9C93",
+            ),
+            rx.text(
+                "Miembros",
+                
+                color="#8D9C93",
+            ),
+            rx.text(
+                "Contacto",
+                
+                color="#8D9C93",
+            ),
+            
+            font_weight="400",
+            font_size="16px",
+            line_height="26px",
+            
+            right="0px",
         ),
         
         display="flex",
         flex_direction="row",
         justify_content="space-between",
         align_items="center",
-        padding="15px 30px",
-        gap="840px",
+        padding="15px 15px",
         
         position="sticky",
         width="100%",
