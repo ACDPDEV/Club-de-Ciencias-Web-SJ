@@ -20,17 +20,19 @@ body {
 
 
 
-/* .navbar {
-    animation: scroll-animation linear both;
-    ;
-} */
+.navbar {
+    animation: scroll-animation auto linear both;
+    animation-timeline: scroll(root block);
+} 
 
 @keyframes scroll-animation {
     0% {
-        background-color: #131217;
+        background-position: 0% 50%;
     }
-
-    3% {
-        background-color: linear-gradient(0deg, rgba(29, 27, 33, 0.931) 0%, rgba(20, 19, 24, 0.95) 100%);
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }

@@ -69,7 +69,7 @@ def navbar() -> rx.Component:
         top="0px",
         left="0px",
         
-        background="#131217",
+        background="linear-gradient(0deg, rgba(29, 27, 33, 0.931) 0%, rgba(20, 19, 24, 0.95) 100%)",
         
         z_index="100",
     )
