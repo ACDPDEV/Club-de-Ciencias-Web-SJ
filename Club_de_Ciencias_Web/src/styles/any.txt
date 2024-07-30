@@ -1,0 +1,365 @@
+/* Frame 3 */
+
+position: absolute;
+left: 19.7%;
+right: 19.7%;
+top: 26.33%;
+bottom: 8.67%;
+
+/* Background Icons */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: -13.59%;
+bottom: 13.59%;
+
+/* ABUNDIO SAGASTEGUI ALVA */
+
+position: absolute;
+width: 784px;
+height: 62px;
+left: 17px;
+top: 340px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 62px;
+/* identical to box height */
+text-align: center;
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), linear-gradient(270deg, #4EFF95 0%, #8EFF49 33.3%, #FFA34E 66.67%, #FF3E3E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+
+
+
+background: #131217
+
+
+
+
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+gap: 840px;
+
+position: absolute;
+width: 1350px;
+height: 70px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(29, 27, 33, 0.931) 0%, rgba(20, 19, 24, 0.95) 100%);
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 374px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Club de Ciencias */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Club de ciencias - SAN JUAN */
+
+width: 301px;
+height: 26px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 26px;
+/* identical to box height */
+
+color: #EEEEEE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Headers */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+width: 439px;
+height: 26px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Proyectos */
+
+width: 105px;
+height: 26px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 26px;
+/* identical to box height */
+
+color: #8D9C93;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Inicio */
+
+width: 57px;
+height: 26px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 26px;
+/* identical to box height */
+text-align: right;
+
+color: #8D9C93;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Miembros */
+
+width: 106px;
+height: 26px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 26px;
+/* identical to box height */
+
+color: #8D9C93;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Contacto */
+
+width: 96px;
+height: 26px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 26px;
+/* identical to box height */
+
+color: #8D9C93;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+
+
+
+
+
+
+
+
+/* Frame 3 */
+
+position: absolute;
+left: 19.7%;
+right: 19.7%;
+top: 26.33%;
+bottom: 8.67%;
+
+
+
+/* ASA */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 55px;
+
+position: absolute;
+width: 817.97px;
+height: 284px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector 1 */
+
+width: 252.73px;
+height: 284px;
+
+filter: drop-shadow(-20px 20px 50px rgba(255, 62, 62, 0.15)) drop-shadow(20px -20px 50px rgba(255, 163, 78, 0.15)) drop-shadow(-20px -20px 50px rgba(255, 62, 62, 0.15)) drop-shadow(20px 20px 50px rgba(255, 163, 78, 0.15));
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(270deg, #FFA34E 50%, #FF3E3E 100%);
+border: 5px solid rgba(29, 29, 32, 0.3);
+
+
+/* Vector 2 */
+
+width: 202.51px;
+height: 284px;
+
+filter: drop-shadow(-20px 20px 50px rgba(255, 163, 78, 0.15)) drop-shadow(20px -20px 50px rgba(142, 255, 73, 0.15)) drop-shadow(-20px -20px 50px rgba(255, 163, 78, 0.15)) drop-shadow(20px 20px 50px rgba(142, 255, 73, 0.15));
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(270deg, #8EFF49 0%, #FFA34E 100%);
+border: 5px solid rgba(29, 29, 32, 0.3);
+
+
+/* Vector 3 */
+
+width: 252.73px;
+height: 284px;
+
+filter: drop-shadow(-20px 20px 50px rgba(142, 255, 73, 0.15)) drop-shadow(20px -20px 50px rgba(78, 255, 149, 0.15)) drop-shadow(-20px -20px 50px rgba(142, 255, 73, 0.15)) drop-shadow(20px 20px 50px rgba(78, 255, 149, 0.15));
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(270deg, #4EFF95 0%, #8EFF49 100%);
+border: 5px solid rgba(29, 29, 32, 0.3);
+
+
+/* ABUNDIO SAGASTEGUI ALVA */
+
+position: absolute;
+width: 784px;
+height: 62px;
+left: 17px;
+top: 340px;
+
+font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 62px;
+/* identical to box height */
+text-align: center;
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), linear-gradient(270deg, #4EFF95 0%, #8EFF49 33.3%, #FFA34E 66.67%, #FF3E3E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+

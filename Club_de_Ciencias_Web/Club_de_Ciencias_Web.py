@@ -24,5 +24,9 @@ def index() -> rx.Component:
         )
     )
 
-app = rx.App()
+app = rx.App(
+    stylesheets=[
+        "/general.css",
+    ],
+)
 app.add_page(index)
