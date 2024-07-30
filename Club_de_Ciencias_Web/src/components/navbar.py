@@ -55,6 +55,8 @@ def navbar() -> rx.Component:
             right="0px",
         ),
         
+        class_name="navbar",
+        
         display="flex",
         flex_direction="row",
         justify_content="space-between",
