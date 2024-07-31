@@ -7,23 +7,30 @@ def main_image() -> rx.Component:
             rx.image(
                 src="/ASA.svg",                
             ),
-            rx.image(
-                src="/Background Icons.svg",
+            rx.center(     
+                rx.image(
+                    src="/Background Icons.svg",
+                ),
                 
                 position="absolute",
-                justify_content="center",
-                z_index="99",
+                left="0px",
+                
+                width="100%",
+                
+                z_index="96",
             ),
             rx.center(    
                 rx.text(
                     " ABUNDIO SAGASTEGUI ALVA",
                     
-                    class_name="main_name"
+                    class_name="main_name",
                 ),
                 
-                width="100%"
+                width="100%",
             ),
             
-            max_width="860px"
+            gap="5vh",
+            
+            max_width="860px",
         )
     )
