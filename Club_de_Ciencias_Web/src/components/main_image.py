@@ -20,16 +20,14 @@ def main_image() -> rx.Component:
                 z_index="96",
             ),
             rx.center(    
-                rx.text(
-                    " ABUNDIO SAGASTEGUI ALVA",
-                    
-                    class_name="main_name",
+                rx.image(
+                    src="ABUNDIO SAGASTEGUI ALVA.svg"  
                 ),
                 
                 width="100%",
             ),
             
-            gap="5vh",
+            gap="10vh",
             
             max_width="860px",
         )
