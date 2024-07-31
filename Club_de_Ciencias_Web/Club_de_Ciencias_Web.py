@@ -18,9 +18,11 @@ def index() -> rx.Component:
                 rx.vstack(
                     presentation(),
                     information(),
-                    max_width="600px",
+                    
+                    max_width="650px",
                     width="100%",
-                    margin="25px"
+                    margin="25px",
+                    gap="100px"
                 ),
                 
                 margin_top="150px"
