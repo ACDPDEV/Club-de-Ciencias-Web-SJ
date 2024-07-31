@@ -4,6 +4,7 @@ from Club_de_Ciencias_Web.src.components.navbar import navbar
 from Club_de_Ciencias_Web.src.components.main_image import main_image
 from Club_de_Ciencias_Web.src.components.presentation import presentation
 from Club_de_Ciencias_Web.src.components.information import information
+from Club_de_Ciencias_Web.src.components.loader import loader
 
 
 class State(rx.State):
@@ -11,6 +12,7 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.box(
+        loader(),
         navbar(),
         rx.box(    
             main_image(),

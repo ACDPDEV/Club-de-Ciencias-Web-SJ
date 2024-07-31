@@ -1,0 +1,98 @@
+#loader-container {
+    position: fixed;
+    background: #131217;
+
+    animation: opacity-animation 1s ease-out 3.2s reverse both;
+}
+
+
+
+.sj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    animation: opacity-animation 1s linear both;
+}
+
+.insignia .Vector-1 {
+    stroke-width: 10px;
+    stroke: #CCC;
+    stroke-linejoin: round;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 0;
+    animation: stroke-animation 1s linear 1s both;
+}
+
+.insignia .Vector-2 {
+    stroke-width: 10px;
+    stroke: #CCC;
+    stroke-linejoin: round;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 0;
+    animation: stroke-animation 1s linear 1s both; 
+}
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo .Vector-1 {
+    stroke: #CCC;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 0;
+    animation: stroke-animation 1s linear 2s reverse both;
+}
+
+.logo .Vector-2 {
+    stroke: #CCC;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 0;
+    animation: stroke-animation 1s linear 2s reverse both;
+}
+
+
+@keyframes stroke-animation {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: -310;
+    }
+    100% {
+        stroke-dashoffset: -620;
+    }
+}
+
+@keyframes opacity-animation {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+
+
+
+.hidden {
+    z-index: -1000;
+}
