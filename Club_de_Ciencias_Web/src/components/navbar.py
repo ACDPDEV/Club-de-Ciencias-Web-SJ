@@ -44,25 +44,41 @@ def navbar() -> rx.Component:
             z_index="98"
         ),
         rx.hstack(
-            rx.text(
-                "Inicio",
+            rx.link(
+                rx.text(
+                    "Inicio",
 
-                color="#8D9C93",
+                    color="#8D9C93",
+                ),
+                
+                href="/inicio",
             ),
-            rx.text(
-                "Proyectos",
+            rx.link(
+                rx.text(
+                    "Proyectos",
 
-                color="#8D9C93",
+                    color="#8D9C93",
+                ),
+                
+                href="/proyectos",
             ),
-            rx.text(
-                "Miembros",
+            rx.link(
+                rx.text(
+                    "Miembros",
 
-                color="#8D9C93",
+                    color="#8D9C93",
+                ),
+
+                href="miembros",
             ),
-            rx.text(
-                "Contacto",
+            rx.link(
+                rx.text(
+                    "Contacto",
 
-                color="#8D9C93",
+                    color="#8D9C93",
+                ),
+                
+                href="contacto",
             ),
 
             font_weight="400",
@@ -70,6 +86,8 @@ def navbar() -> rx.Component:
             line_height="26px",
 
             right="0px",
+            
+            gap="15px",
             
             z_index="99"
         ),
