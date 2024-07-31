@@ -12,16 +12,26 @@ class State(rx.State):
 def index() -> rx.Component:
     return rx.box(
         navbar(),
-        main_image(),
-        rx.center(
-            rx.vstack(
-                presentation(),
-                information(),
-                max_width="600px",
-                width="100%",
-                margin="25px"
-            )
-        )
+        rx.box(    
+            main_image(),
+            rx.center(
+                rx.vstack(
+                    presentation(),
+                    information(),
+                    max_width="600px",
+                    width="100%",
+                    margin="25px"
+                ),
+                
+                margin_top="150px"
+            ),
+            
+            width="100%",
+            height="100%",
+            
+            box_sizing="border-box",
+            padding="15px",
+        ),
     )
 
 app = rx.App(

@@ -21,7 +21,7 @@ def main_image() -> rx.Component:
             ),
             rx.center(    
                 rx.image(
-                    src="ABUNDIO SAGASTEGUI ALVA.svg"  
+                    src="/ABUNDIO SAGASTEGUI ALVA.svg"  
                 ),
                 
                 width="100%",
